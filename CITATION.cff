@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+type: dataset
+title: "Indiana high school early-warning model for first-year college outcomes"
+version: "0.1.0"
+date-released: "2026-10-09"
+authors:
+  - family-names: "Sa'anga"
+    given-names: "Othniel Iyassa"
+    orcid: "https://orcid.org/0009-0002-6113-6158"
+license: CC-BY-4.0
+repository-code: "https://github.com/OthnyLight/in-hs-math-earlywarning"
+keywords:
+  - "early warning"
+  - "college readiness"
+  - "mathematics"
+  - "Algebra I"
+  - "dual credit"
+  - "calibration"
+  - "Indiana"

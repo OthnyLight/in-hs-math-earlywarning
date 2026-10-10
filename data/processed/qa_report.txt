@@ -1,0 +1,48 @@
+== Directory: public schools listed (2025-26 IDOE SCHL sheet): 1961
+== CHE 2021: schools 503, linked to IDOE id 481 (95.6%)
+== CHE 2022: schools 508, linked to IDOE id 496 (97.6%)
+== CHE 2023: schools 522, linked to IDOE id 513 (98.3%)
+== CHE 2024: schools 530, linked to IDOE id 530 (100.0%)
+== Kept public schools: 1665 of 2020 school-cohort rows (dropped nonpublic/closed)
+== ISTEP+ 2017 grade 8 (class of 2021): 630 schools tested, state rate 0.552
+== ISTEP+ 2018 grade 8 (class of 2022): 623 schools tested, state rate 0.558
+== ILEARN 2019 grade 8 (class of 2023): 654 schools tested, state rate 0.388
+== ILEARN 2019 grade 7 (no 2020 test) (class of 2024): 660 schools tested, state rate 0.428
+   class of 2021: attributed at school 108, corporation 251, missing 38
+   class of 2022: attributed at school 107, corporation 263, missing 44
+   class of 2023: attributed at school 109, corporation 273, missing 41
+   class of 2024: attributed at school 105, corporation 282, missing 44
+== SAT grade 11 (sat_2022_gr11_school.xlsx) -> class of 2023: matched 399 of 423
+== SAT grade 11 (sat_2023_gr11_school.xlsx) -> class of 2024: matched 403 of 431
+== CCD 2022 directory matched (coords/locale): 425 of 431 schools
+== CRDC rows matched: 2021: 374/397, 2022: 378/414, 2023: 406/423, 2024: 410/431
+
+== Sample
+   class of 2021: public schools 397, with GPA+credits 348, with off-track share 348, with math remediation share 117, enrollees covered 25050 of 25100
+   class of 2022: public schools 414, with GPA+credits 359, with off-track share 359, with math remediation share 137, enrollees covered 25335 of 25446
+   class of 2023: public schools 423, with GPA+credits 359, with off-track share 359, with math remediation share 129, enrollees covered 25179 of 25241
+   class of 2024: public schools 431, with GPA+credits 368, with off-track share 368, with math remediation share 141, enrollees covered 25591 of 25717
+
+== Range checks (outcome rows)
+   gpa         n=1434  min=1.293  median=2.800  max=3.553
+   credits     n=1434  min=5.800  median=22.298  max=31.567
+   p_offtrack  n=1434  min=0.022  median=0.405  max=1.000
+   p_gpa_lt2   n=1434  min=0.000  median=0.179  max=0.583
+   p_mathrem   n= 524  min=0.000  median=0.000  max=0.329
+   g8_math     n=1369  min=0.000  median=0.464  max=0.931
+   sat_math    n= 722  min=0.000  median=0.268  max=0.918
+   alg1_late   n=1371  min=0.000  median=0.034  max=1.000
+   alg1_hs     n=1395  min=0.000  median=0.159  max=0.636
+   ap_pass     n=1434  min=0.000  median=0.117  max=0.988
+   dual        n=1434  min=0.000  median=0.683  max=1.000
+   adv_share   n= 726  min=0.000  median=0.119  max=0.928
+   frl_share   n=1433  min=0.074  median=0.458  max=1.000
+   out-of-range rows: 0
+
+== Spot checks — open the named source file and confirm these values
+   Adams Central High School-Monroe (id 0021), class of 2024: grads 94, IN-public enrollees 37, GPA 3.11, credits 24.9, off-track share 0.270, SAT math benchmark 0.439 (SAT-2023-Grade11 'Math' sheet), grade-7 ILEARN math 0.500 [corporation]
+   Carmel High School-Carmel (id 2505), class of 2024: grads 1303, IN-public enrollees 734, GPA 3.23, credits 28.6, off-track share 0.153, SAT math benchmark 0.701 (SAT-2023-Grade11 'Math' sheet), grade-7 ILEARN math 0.701 [corporation]
+   Crispus Attucks High School-Indianapolis (id 5474), class of 2024: grads 220, IN-public enrollees 63, GPA 1.94, credits 16.6, off-track share 0.619, SAT math benchmark 0.020 (SAT-2023-Grade11 'Math' sheet), grade-7 ILEARN math 0.166 [corporation]
+   West Side Leadership Academy-Gary (id 4163), class of 2024: grads 181, IN-public enrollees 19, GPA 2.28, credits 17.2, off-track share 0.684, SAT math benchmark 0.015 (SAT-2023-Grade11 'Math' sheet), grade-7 ILEARN math 0.020 [corporation]
+   Signature School Inc-Evansville (id 8295), class of 2024: grads 84, IN-public enrollees 58, GPA 3.44, credits 30.6, off-track share 0.103, SAT math benchmark 0.918 (SAT-2023-Grade11 'Math' sheet), grade-7 ILEARN math nan []
+   Muncie Central High School-Muncie (id 1421), class of 2024: grads 285, IN-public enrollees 81, GPA 2.36, credits 19.3, off-track share 0.543, SAT math benchmark 0.114 (SAT-2023-Grade11 'Math' sheet), grade-7 ILEARN math 0.233 [corporation]

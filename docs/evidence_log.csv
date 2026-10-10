@@ -1,2 +1,3 @@
 date,artifact_or_event,type,venue_or_host,link_or_doi,status,prong_tags,metrics_snapshot,files_saved,notes
 2026-10-09,Private draft of interactive map (Claude artifact),interactive resource,claude.ai artifact (private),https://claude.ai/artifact/GTiEBmPn2EQ8R8HwqAkj6D,draft (private),P2,,,Draft for author review; not public
+2026-10-09,in-hs-math-earlywarning v0.1.0 public repository,code + dataset,GitHub,https://github.com/OthnyLight/in-hs-math-earlywarning,live,P2,0 stars at release,,Initial public push (commit 924bb5b) after author verification; Zenodo DOI pending

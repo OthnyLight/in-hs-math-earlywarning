@@ -6,7 +6,7 @@ An interpretable, calibrated model that estimates, for each Indiana public high 
 
 **Why:** weak first-year outcomes cost students time and money and lower completion, but schools learn about them years after graduation. A transparent warning lets districts and the state act while students are still in high school.
 
-Headline results are in `docs/MODEL_CARD.md` and `paper/manuscript.pdf` (all numbers generated from `paper/stats.json`).
+Headline results are in `docs/MODEL_CARD.md`, the short manuscript `paper/manuscript.pdf`, and the detailed technical paper `paper/journal/technical_paper.pdf` (all numbers generated from `paper/stats.json`).
 
 ## Contents
 | Path | What |
@@ -15,7 +15,7 @@ Headline results are in `docs/MODEL_CARD.md` and `paper/manuscript.pdf` (all num
 | `data/processed/school_panel.csv` | School × cohort analysis panel (see `docs/CODEBOOK.md`) |
 | `data/processed/predictions_2024.csv` | Out-of-sample predictions, flags and residuals for the class of 2024 |
 | `data/processed/qa_report.txt` | Row counts, match rates, range checks, named spot checks |
-| `paper/` | `stats.json`, figures, tables, `manuscript.docx`/`.pdf` |
+| `paper/` | `stats.json`, figures, tables, `manuscript.docx`/`.pdf`; `journal/` holds the LaTeX technical paper and its vector figures |
 | `map/index.html` | Interactive school map (single self-contained file; a copy in `docs/map/` is served by GitHub Pages) |
 | `docs/` | Model card, codebook, limitations, verification checklist, next steps, publish guide, build spec |
 | `code/` | Numbered pipeline scripts |

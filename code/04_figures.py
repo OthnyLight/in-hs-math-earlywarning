@@ -3,6 +3,8 @@
 
   python code/04_figures.py            # DRAFT-stamped (default)
   python code/04_figures.py --final    # only after the author's verification gate
+  python code/04_figures.py --final --journal   # vector PDFs without in-image titles/captions,
+                                               # for the LaTeX technical paper (paper/journal/figures)
 
 Palette: validated reference categorical slots (blue #2a78d6, orange #eb6834), recessive chrome.
 """
@@ -21,6 +23,10 @@ PAPER, PROC = ROOT / "paper", ROOT / "data" / "processed"
 FIG = PAPER / "figures"
 FIG.mkdir(parents=True, exist_ok=True)
 FINAL = "--final" in sys.argv
+JOURNAL = "--journal" in sys.argv
+if JOURNAL:
+    FIG = PAPER / "journal" / "figures"
+    FIG.mkdir(parents=True, exist_ok=True)
 S = json.loads((PAPER / "stats.json").read_text())
 
 BLUE, ORANGE, INK, INK2, MUTED, GRID, BASE = "#2a78d6", "#eb6834", "#0b0b0b", "#52514e", "#898781", "#e1e0d9", "#c3c2b7"
@@ -34,6 +40,19 @@ plt.rcParams.update({
 
 def finish(fig, name, caption):
     import textwrap
+    if JOURNAL:
+        if fig._suptitle is not None:
+            fig._suptitle.set_text("")
+        if len(fig.axes) == 1:
+            for loc in ("left", "center", "right"):
+                fig.axes[0].set_title("", loc=loc)
+        for a in fig.axes:
+            a.set_facecolor("white")
+        fig.set_facecolor("white")
+        fig.savefig(FIG / f"{name}.pdf", facecolor="white")
+        plt.close(fig)
+        print("wrote", name, "(journal)")
+        return
     fig.canvas.draw()
     # place the caption below everything already drawn (tick labels included)
     r = fig.canvas.get_renderer()

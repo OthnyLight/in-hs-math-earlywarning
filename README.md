@@ -1,4 +1,6 @@
-**Status: v0.1.0, released 2026-10-09. Verified by the author. Zenodo DOI to be added.**
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24519554.svg)](https://doi.org/10.5281/zenodo.24519554)
+
+**Status: v0.1.0, released 2026-10-09. Verified by the author. Archived on Zenodo: [doi:10.5281/zenodo.24519554](https://doi.org/10.5281/zenodo.24519554).**
 
 # Indiana high school early-warning model for first-year college outcomes
 
@@ -42,6 +44,8 @@ Access verified 2026-10-06; files fetched 2026-10-09.
 See `docs/LIMITATIONS.md`. In short: outcomes cover only Indiana public college enrollees; school-level only, never for individual students; grade 8 results are mostly district averages; the full model rests on one cohort transition; coefficients are associations.
 
 ## License and citation
+See `CITATION.cff`. Archived on Zenodo: [doi:10.5281/zenodo.24519554](https://doi.org/10.5281/zenodo.24519554) (all versions; v0.1.0 is [doi:10.5281/zenodo.24519555](https://doi.org/10.5281/zenodo.24519555)).
+
 Code: MIT (`LICENSE`). Derived data, figures and documents: CC BY 4.0 (`LICENSE-DATA.md`), with attribution to the public sources above. Cite with `CITATION.cff`.
 
 Maintainer: Othniel Iyassa Sa'anga, Independent Researcher (ORCID 0009-0002-6113-6158), othnylight@gmail.com.

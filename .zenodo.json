@@ -1,0 +1,29 @@
+{
+  "upload_type": "dataset",
+  "license": "cc-by-4.0",
+  "title": "Indiana high school early-warning model for first-year college outcomes",
+  "description": "<p>An interpretable, calibrated model that estimates, for each Indiana public high school, how its graduates will fare in their first college year (credits earned and GPA at Indiana public colleges), using only public school-level signals available while students are still in high school: grade 7/8 state mathematics results, grade 11 SAT mathematics results, the grade in which students pass Algebra I, whether advanced mathematics and calculus are offered, AP exam passing and dual-credit earning.</p><p>Fit on the class of 2023 and tested on the class of 2024, the model explains 59% of between-school variation in first-year credits (95% CI 45%–68%) and 56% in GPA. The deposit includes the school-by-cohort panel, out-of-sample predictions, code, model card, failure audit, technical paper and an interactive school map. Code MIT; derived data, figures and documents CC BY 4.0.</p>",
+  "keywords": [
+    "early warning",
+    "college readiness",
+    "mathematics",
+    "Algebra I",
+    "dual credit",
+    "calibration",
+    "Indiana"
+  ],
+  "creators": [
+    {
+      "name": "Sa'anga, Othniel Iyassa",
+      "orcid": "0009-0002-6113-6158",
+      "affiliation": "Independent Researcher, Indianapolis, IN, USA"
+    }
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/OthnyLight/in-hs-math-earlywarning",
+      "relation": "isSupplementTo",
+      "resource_type": "dataset"
+    }
+  ]
+}

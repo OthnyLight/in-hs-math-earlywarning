@@ -4,6 +4,7 @@ type: dataset
 title: "Indiana high school early-warning model for first-year college outcomes"
 version: "0.1.0"
 date-released: "2026-10-09"
+doi: "10.5281/zenodo.24519554"
 authors:
   - family-names: "Sa'anga"
     given-names: "Othniel Iyassa"
@@ -18,3 +19,10 @@ keywords:
   - "dual credit"
   - "calibration"
   - "Indiana"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.24519554"
+    description: "Zenodo concept DOI (all versions)"
+  - type: doi
+    value: "10.5281/zenodo.24519555"
+    description: "Zenodo DOI for v0.1.0"
